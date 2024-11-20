@@ -1,20 +1,22 @@
 .button {
   align-items: center;
-  background-color: #000;
+  background-color: #444;
   border: none;
   border-radius: 0.25rem;
   color: #FFF;
   cursor: pointer;
   display: flex;
   font-weight: 700;
+  height: 2rem;
   justify-content: center;
   text-decoration: none;
   transition: scale 0.5s, backgound-color 1s;
+  width: 4rem;
 }
 .button:hover {
   scale: 1.1;
+  background-color: #000;
 }
-
 .button-add {
   background-color: #357c4d;
   font-size: 1.6rem;
@@ -24,7 +26,6 @@
 .button-add:hover {
   background-color: #165c01;
 }
-
 .button-remove {
   background-color: #c23939;
   font-size: 1.2rem;
@@ -34,7 +35,6 @@
 .button-remove:hover {
   background-color: #f00303;
 }
-
 .button-clear {
   background-color: #3a31b8;
   font-size: 1rem;
@@ -43,4 +43,4 @@
 }
 .button-clear:hover {
   background-color: #0c01aa;
-}/*# sourceMappingURL=buttons.css.map */
+}/*# sourceMappingURL=Button.css.map */

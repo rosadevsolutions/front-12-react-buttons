@@ -1,6 +1,6 @@
-import "../../styles/buttons.css"
+import "./Button.css"
 
-const Button = ({text, className, type}) => {
+const Button = ({text, className, type, background}) => {
   return(
     <button
       type = {type ? type : "button"}
