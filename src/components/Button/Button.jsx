@@ -1,10 +1,12 @@
-const Button = ({callToAction, className, id, type}) => {
+import "../../styles/buttons.css"
+
+const Button = ({callToAction, className, type}) => {
   return(
     <button
-      id={id}
       type = {type ? type : "button"}
-      className = {className ? `button ${className}` : className}>
-        {callToAction}
+      className = {className ? `button ${className}` : "button"}
+    >
+      <span>{callToAction}</span>
     </button>
   )
 }
