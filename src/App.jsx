@@ -1,25 +1,28 @@
 import React from "react"
 import Button from "./components/Button/Button"
 
+import "./styles/main.css"
+
 const App = () => {
   return(
-    <div className="App">
+    <div className="app-wrapper">
       <Button
-        id="button-add"
         className="button-add"
-        callToAction="Adicionar"
+        text="Adicionar"
       />
 
       <Button
-        id="button-remove"
         className="button-remove"
-        callToAction="Remover"
+        text="Remover"
       />
 
       <Button
-        id="button-clean"
-        className="button-clean"
-        callToAction="Limpar"
+        className="button-clear"
+        text="Limpar"
+      />
+
+      <Button
+        text="Default"
       />
     </div>
   )
