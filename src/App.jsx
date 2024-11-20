@@ -1,7 +1,7 @@
 import React from "react"
 import Button from "./components/Button/Button"
 
-import "./styles/main.css"
+import "./index.css"
 
 const App = () => {
   return(
