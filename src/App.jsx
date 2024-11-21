@@ -35,9 +35,7 @@ const App = () => {
         text="Limpar"
       />
 
-      <Button
-        text="Default"
-      />
+      <Butto text="Default"/>
     </div>
   )
 }
