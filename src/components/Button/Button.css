@@ -17,6 +17,15 @@
   scale: 1.1;
   background-color: #000;
 }
+.button-send {
+  background-color: #e7b64a;
+  font-size: 1.8rem;
+  height: 8rem;
+  width: 12rem;
+}
+.button-send:hover {
+  background-color: #eba103;
+}
 .button-add {
   background-color: #357c4d;
   font-size: 1.6rem;
